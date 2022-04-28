@@ -1,0 +1,28 @@
+{
+  "name": "cronos-jag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "compodoc": "npx compodoc -p ./tsconfig.doc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagoraxm/cronos-jag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagoraxm/cronos-jag/issues"
+  },
+  "homepage": "https://github.com/jagoraxm/cronos-jag#readme",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.1.19"
+  }
+}
